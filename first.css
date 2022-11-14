@@ -1,62 +1,4 @@
-[10:02 pm, 12/11/2022] Shaik Mahenoor Sultana: <html>
-
-<head>
-    <link rel="stylesheet" href="project.css">
-    <title>450 DSA Tracker</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
-</head>
-
-<body>
-    <div id="section-projecthome">
-        <div class="d-flex flex-row justify-content-center projecthome">
-            <div>
-                <h1 class="projecthome-heading">450 DSA Tracker</h1>
-                <div class="d-flex flex-row justify-content-center">
-                    <img class="projecthome-image" src="https://media.sketchfab.com/models/999ddfcd6d404e74b2b3beda5093eefe/thumbnails/1bac100d7e314169b14be7f15f151f28/8ecb70770ff043b39766fbd41a25041d.jpeg" />
-                    <p class="projecthome-para">Boosts up your Data Structure and Algorithms Skills.</p>
-                </div>
-                <div>
-                    <form class="d-flex flex-column">
-                        <input class="projecthome-form" type="text" placeholder="username" />
-                        <input class="projecthome-form" type="password" placeholder="password" />
-                    </form>
-                    <button onclick="display('section-projectsecond')" class="button-projecthome btn btn-primary">Login</button>
-                </div>
-                <p class="section-homepage-lastpara">Do not have an account?<font class="for-signup"> Signup</font> | Forget password? <font class="for-forgetpass"><u>Reset Password</u></font>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div id="section-projectsecond">
-        <div class="d-flex flex-column justify-content-center projectsecond">
-            <div class="projecthome">
-                <h1 class="projecthome-heading">DSA 450 Cracker</h1>
-                <p class="projectsecond-paragraph">BRUSH UP YOU DATASTRUCTURES AND ALGORITHM SKILLS</p>
-            </div>
-            <div class="projectsecond-card">
-                <h1 class="">Array</h1>
-                <p>Total Questions:36</p>
-                <p>You have not subscribed yet.</p>
-                <p>Total subscribers: 21556</p>
-                <p>Completion Percentage:N/A </p>
-                <hr />
-                <div class="for-right">
-                    <button class="for-startnow">Start journey -></button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
-
-</body>
-
-</html>
-[10:02 pm, 12/11/2022] Shaik Mahenoor Sultana: @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
 .projecthome {
     padding: 60px;
@@ -71,7 +13,9 @@
 }
 
 .projecthome-image {
-    height: 1px;
+    height: 25px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .projecthome-para {
@@ -100,7 +44,7 @@
 .projectsecond-paragraph {
     font-weight: bold;
     font-family: "Roboto";
-    color: white;
+    color: #bf1b7d;
 
 }
 
@@ -115,6 +59,27 @@
     background-color: black;
 }
 
+
+
+.section-homepage-lastpara {
+    color: gray;
+}
+
+
+
+
+.projectsecond-card-home {
+    background-color: black;
+}
+
+.projectsecond-card {
+    padding: 10px;
+    width: 27vw;
+    background-color: white;
+    margin: 15px;
+    border-radius: 10px;
+}
+
 .for-startnow {
     width: 30px;
     border: 0px;
@@ -126,10 +91,25 @@
     padding: 10px;
 }
 
+
 .for-right {
     text-align: right;
 }
 
-.section-homepage-lastpara {
+.projectsecond-card-heading {
+    color: blue;
+    font-family: "Sans-Serif";
+    font-size: 25px;
+}
+
+.projectsecond-card-totalmarks {
     color: gray;
+}
+
+.projectsecond-card-fornonsubscribe {
+    color: red;
+}
+
+.projectsecond-card-CompletionPercentage {
+    color: violet;
 }
